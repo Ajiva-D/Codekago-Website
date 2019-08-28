@@ -47,10 +47,12 @@ html {
 }
 /* Custom CSS */
 .home-bg{
-	background-color:#fbfcff;
+	/* background-color:#fbfcff; */
+	padding:0!important;
 }
 footer{
-	background-color:#e5f1ff;
+	background-color:#d8eaff;
+	color:#3c4958;
 }
 .ul-icons{
 	display:flex;
@@ -2057,7 +2059,7 @@ select.form-control:focus::-ms-value {
     padding: .5rem 1.25rem;
     font-size: .875rem;
     line-height: 1.5;
-    border-radius: .2rem
+    border-radius: 12px;
 }
 
 .form-control-lg {
@@ -2924,8 +2926,9 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-primary {
-    color: #0c66ff;
-    border-color: #0c66ff
+    color: #0fb7fe;
+    border-color: #0fb7fe;
+    background-color: #e5f1ff;
 }
 
 .btn-outline-primary:hover {
@@ -5260,13 +5263,13 @@ a.badge:hover {
 
 .badge-pill {
     padding-right: .875em;
-    padding-left: .875em;
-    border-radius: 50rem
+    padding-left: 0em;
+    border-radius: 50rem;
 }
 
 .badge-primary {
-    color: #fff;
-    background-color: #0c66ff
+    color: #0fb7fe;
+    background-color: transparent;
 }
 
 a.badge-primary:focus,
@@ -11965,7 +11968,7 @@ button.bg-white:hover {
 }
 
 .text-primary {
-    color: #0c66ff!important
+    color: #0fb7fe!important;
 }
 
 a.text-primary:focus,
@@ -18879,7 +18882,7 @@ svg {
 }
 
 .footer-light .list-unstyled li a {
-    color: #8492a6
+    color: #171a1e;
 }
 
 .footer-light .list-unstyled li a:hover {
@@ -20435,7 +20438,7 @@ textarea[resize=horizontal] {
 
 .nav-link.active,
 .nav-link:hover {
-    color: #0c66ff
+    color: #0fb7fe;
 }
 
 .nav-pills-icon .nav-link:not(.active) {
