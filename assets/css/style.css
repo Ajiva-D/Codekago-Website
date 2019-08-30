@@ -65,6 +65,15 @@ footer{
 	width:25px;
 	text-align:center;
 }
+.share-icons a{
+	height:30px!important;
+	width:30px!important;
+}
+.share-icons i{
+	position:relative;
+	top:4%!important;
+	transform:translateY(-50%);
+}
 .ul-icons i{
 	color:#ffffff;
 	padding:0!important;
@@ -73,13 +82,18 @@ footer{
 	top:-22%;
 	transform:translateY(-50%);
 }
-/* .my-container-fluid {
-	width: 100%;
-	padding-right: 150px!important;
-	padding-left: 150px!important;
-	margin-right: auto;
-	margin-left: auto;
-} */
+.text-grey{
+	color:#8492a6;
+}
+.bg-pink{
+	background-color:#e55c65;
+}
+.inner-circle{
+	width:20px;
+	height:20px;
+	background-color:#ffffff;
+	border-radius:50%;
+}
 /* Custom CSS */
 article,
 aside,
@@ -5275,7 +5289,7 @@ a.badge:hover {
 a.badge-primary:focus,
 a.badge-primary:hover {
     color: #fff;
-    background-color: #0050d8
+    background-color: transparent;
 }
 
 a.badge-primary.focus,
