@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang=en>
+<!-- Mirrored from preview.webpixels.io/quick-website-ui-kit-v1.0.0/pages/blog/blog-grid.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 26 Aug 2019 10:19:32 GMT -->
+
+<head>
+    <meta charset=utf-8>
+    <meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no">
+    <meta name=description content="">
+    <meta name=author content=Codekago>
+    <title>Internship | Codekago Interactive</title>
+    <style>
+        @keyframes hidePreloader {
+            0% {
+                width: 100%;
+                height: 100%
+            }
+            100% {
+                width: 0;
+                height: 0
+            }
+        }
+        
+        body>div.preloader {
+            position: fixed;
+            background: #fff;
+            width: 100%;
+            height: 100%;
+            z-index: 1071;
+            opacity: 0;
+            transition: opacity .5s ease;
+            overflow: hidden;
+            pointer-events: none;
+            display: flex;
+            align-items: center;
+            justify-content: center
+        }
+        
+        body:not(.loaded)>div.preloader {
+            opacity: 1
+        }
+        
+        body:not(.loaded) {
+            overflow: hidden
+        }
+        
+        body.loaded>div.preloader {
+            animation: hidePreloader .5s linear .5s forwards
+        }
+    </style>
+    <script>
+        window.addEventListener("load", function() {
+            setTimeout(function() {
+                document.querySelector("body").classList.add("loaded")
+            }, 300)
+        })
+    </script>
+    <link rel=icon href="../assets/img/custom/Favicon codekago.png" type=image/png>
+    <link rel=stylesheet href=../assets/libs/%40fortawesome/fontawesome-free/css/all.min.css>
+    <link rel=stylesheet href="../assets/css/style.css" id=stylesheet>
+</head>
+
+<body>
+    <div class=preloader>
+        <div class="spinner-border text-primary" role=status><span class=sr-only>Loading...</span></div>
+    </div>
+    <header class=header-transparent id=header-main>
+        <div id=navbar-top-main class="navbar-top py-1 navbar-dark bg-dark navbar-border">
+            <div class=container>
+                <div class="navbar-nav align-items-center">
+										<div>
+												<ul class=nav>
+														<li class="nav-item dropdown ml-lg-2">
+																<a class="nav-link" href="./about.html">About Us</a>
+														</li>
+														<li class="nav-item dropdown ml-lg-2">
+															<a class="nav-link" href="./blog.html">Blog</a>
+													</li>
+													<li class="nav-item dropdown ml-lg-2">
+														<a class="nav-link" href="./team.html">Team</a>
+												</li>
+												<li class="nav-item dropdown ml-lg-2">
+													<a class="nav-link" href="./contact.html">Contact</a>
+											</li>
+												</ul>
+										</div>
+										<div class=ml-auto>
+												<ul class=nav>
+														<li class=nav-item><a class=nav-link href="careers.html">Careers</a></li>
+														<li class="nav-item dropdown">
+															<a class=nav-link href=# data-toggle=dropdown aria-haspopup=true aria-expanded=false><i data-feather=shopping-cart></i></a>
+														</li>
+														<li class="nav-item dropdown"><a class="nav-link pr-0" href=# data-toggle=dropdown aria-haspopup=true aria-expanded=false><i data-feather=user></i></a>
+																<div class="dropdown-menu dropdown-menu-sm dropdown-menu-right">
+																		<h6 class=dropdown-header>User menu</h6><a class=dropdown-item href=#><i data-feather=user></i>Account </a><a class=dropdown-item href=#><span class="float-right badge badge-danger">9</span> <i data-feather=message-circle></i>Messages </a><a class=dropdown-item href=#><i data-feather=settings></i>Settings</a>
+																		<div class=dropdown-divider></div><a class=dropdown-item href=#><i data-feather=log-out></i>Sign out</a></div>
+														</li>
+												</ul>
+										</div>
+								</div>
+            </div>
+        </div>
+        <nav class="navbar navbar-main navbar-expand-lg navbar-sticky navbar-dark bg-dark" id=navbar-main>
+						<div class=container>
+                <a class=navbar-brand href="../index.html"><img alt="Image placeholder" src="../assets/img/custom/codekago logo white.svg"> </a>
+                <button class=navbar-toggler type=button data-toggle=collapse data-target=#navbar-main-collapse aria-controls=navbar-main-collapse aria-expanded=false aria-label="Toggle navigation"><span class=navbar-toggler-icon></span></button>
+                <div class="collapse navbar-collapse navbar-collapse-overlay" id=navbar-main-collapse>
+                    <div class="collapse-header align-items-center">
+                        <div class=col-6>
+                            <a class=navbar-brand href="../index.html"><img alt="Image placeholder" src="../assets/img/custom/codekago logo white.svg"></a>
+                        </div>
+                        <div class="col-6 text-right">
+                            <button class=navbar-toggler type=button data-toggle=collapse data-target=#navbar-main-collapse aria-controls=navbar-main-collapse aria-expanded=false aria-label="Toggle navigation"><i data-feather=x></i></button>
+                        </div>
+                    </div>
+                    <ul class="navbar-nav ml-auto">
+												<li class="nav-item dropdown dropdown-animate" data-toggle=hover><a class="nav-link dropdown-toggle" data-toggle=dropdown href=# aria-haspopup=true aria-expanded=false>Solutions</a>
+													<div class="dropdown-menu dropdown-menu-xl p-0">
+															<div class="row row-grid no-gutters">
+																	<div class="col-12 col-lg-6 order-lg-2">
+																			<div class=dropdown-body>
+																					<div class="row no-gutters">
+																							<div class=col-6>
+																									<h6 class=dropdown-header>Organization</h6><a class=dropdown-item href=agency.html>Agency </a><a class=dropdown-item href=business.html>Business </a><a class=dropdown-item href=studio.html>Studio</a>
+																									<h6 class="dropdown-header mt-4">Services</h6><a class=dropdown-item href=development.html>Development </a><a class=dropdown-item href=marketing.html>Marketing</a></div>
+																							<div class=col-6>
+																									<h6 class=dropdown-header>Products</h6><a class=dropdown-item href=desktop-app.html>Desktop App </a><a class=dropdown-item href=saas.html>Saas</a></div>
+																					</div>
+																			</div>
+																	</div>
+																	<div class="col-12 col-lg-6 order-lg-1 delimiter">
+																			<div class=dropdown-body>
+																					<h6 class=dropdown-header>Get started</h6>
+																					<div class="list-group list-group-flush">
+																							<div class="list-group-item border-0 px-lg-0">
+																									<div class="media d-flex align-items-center">
+																											<figure style=width:50px><img alt="Image placeholder" src=../../assets/img/svg/icons/Apps.svg class=img-fluid style=width:40px></figure>
+																											<div class="media-body ml-3"><a href=../../index-2.html class="d-block h6 mb-0">Overview</a> <small class="text-sm text-muted mb-0">Quick's most important features</small></div>
+																									</div>
+																							</div>
+																							<div class="list-group-item border-0 px-lg-0">
+																									<div class="media d-flex align-items-center">
+																											<figure style=width:50px><img alt="Image placeholder" src=../../assets/img/svg/icons/DOC_File.svg class=img-fluid style=width:40px></figure>
+																											<div class="media-body ml-3"><a href=../../docs/index.html class="d-block h6 mb-0">Documentation</a> <small class="text-sm text-muted mb-0">Quick setup and build tools</small></div>
+																									</div>
+																							</div>
+																							<div class="list-group-item border-0 px-lg-0">
+																									<div class="media d-flex align-items-center">
+																											<figure style=width:50px><img alt="Image placeholder" src=../../assets/img/svg/icons/Cog_Wheel.svg class=img-fluid style=width:40px></figure>
+																											<div class="media-body ml-3"><a href=../../start.html class="d-block h6 mb-0">Start</a> <small class="text-sm text-muted mb-0">A good place to start from</small></div>
+																									</div>
+																							</div>
+																					</div>
+																			</div>
+																	</div>
+															</div>
+													</div>
+											</li>
+                        <li class=nav-item><a class=nav-link href="projects.html">Projects</a></li>
+												<li class="nav-item dropdown dropdown-animate" data-toggle=hover><a class="nav-link dropdown-toggle" data-toggle=dropdown href=# aria-haspopup=true aria-expanded=false>Trainings</a>
+													<ul class="dropdown-menu">
+															<li class="" data-toggle=hover><a href="workshop.html" class="dropdown-item" role=button  aria-haspopup=true aria-expanded=false>Workshop</a>
+																
+															</li>
+															<li class="" data-toggle=hover><a href="bootcamp.html" class="dropdown-item" role=button  aria-haspopup=true aria-expanded=false>Bootcamps</a>
+																	
+															</li>
+														
+															<li class="	" data-toggle=hover><a href="internship.html" class="dropdown-item" role=button  aria-haspopup=true aria-expanded=false>Internships</a>
+
+															</li>
+													</ul>
+											</li>
+                       
+                    </ul><a class="btn btn-sm d-none d-lg-inline-block btn-neutral ml-auto" href=https://themes.getbootstrap.com/product/quick-website-ui-kit/ target=_blank>Notify me</a>
+                    <div class="d-lg-none p-4 text-center"><a href=https://themes.getbootstrap.com/product/quick-website-ui-kit/ class="btn btn-block btn-sm btn-neutral rounded-pill" target=_blank>Notify me</a></div>
+                </div>
+            </div>
+        </nav>
+			</header>
+			
+			<section class="slice py-7 py-lg-10 d-flex align-items-center bg-cover bg-size--cover" style="background-color:#0fb7fe">
+        <div class="container mt-md-5">
+					<div class="row row-grid align-items-center">
+						<div class="col-12 col-md-5 col-lg-6 order-md-2">
+									<figure><img alt="Image placeholder" src="../assets/img/custom/internship 2.jpg" class="card-img shadow-lg position-relative zindex-100"></figure>
+							</div>
+							<div class="col-12 col-md-7 col-lg-6 order-md-1 pr-md-5">
+									<h1 class="display-4 text-center text-md-left mb-3 text-white">Unlock your genius,<br><strong>Intern with us</strong></h1>
+									<p class="lead text-center text-md-left text-white">Build a beautiful, modern website with flexible Bootstrap components built from scratch.</p>
+									<div class="text-center text-md-left mt-5"><a href=# class="btn btn-neutral btn-icon"><span class=btn-inner--text>Find out more	</span><span class=btn-inner--icon> <i data-feather=arrow-right></i></span></a></div>
+							</div>
+					</div>
+			</div>
+		</section>
+		<section class="slice slice-lg">
+			<div class=container>
+					<div class="row row-grid align-items-center justify-content-between">
+							<div class="col-md-6 col-lg-5 order-md-2 ml-md-auto">
+									<div class="py-lg-5 text-lg-left">
+											<h1 class=" mb-3"><strong>Hands on Knowledge</strong></h1>
+											<p class="lead lh-180">Build responsive, mobile-first projects on the web with the world's most popular front-end component library.</p></div>
+							</div>
+							<div class="col-md-6 order-md-1">
+									<div class="row mx-n2">
+											<div class="col-6 mt-6 px-2"><img alt="Female staff smiling" src="../assets/img/custom/_MG_3850.jpg" class="img-fluid mb-3 rounded"> <img alt="Image placeholder" src="../assets/img/custom/_MG_7458.jpg" class="img-fluid rounded"></div>
+											<div class="col-6 px-2"><img alt="Image placeholder" src="../assets/img/custom/_MG_7430.jpg" class="img-fluid mb-3 rounded"> <img alt="Image placeholder" src="../assets/img/custom/Victor.jpg" class="img-fluid rounded"></div>
+									</div>
+							</div>
+					</div>
+			</div>
+	</section>
+	<section class="section-half-rounded py-6">
+		<div class="jumbotron section-inner right-0 rounded-0 bg-dark overflow-hidden col-lg-11"></div>
+		<div class="container position-relative zindex-100">
+				<div>
+						<h1 class="h1 lh-180 text-white mt-4 mb-5"><strong>Why Codekago?</strong></h1></div>
+				<div class="row row-grid align-items-center">
+						<div class="col-lg-6 offset-lg-1 offset-xl-0">
+							
+								<div class="card shadow">
+										<div class=card-body>
+												<div class="d-flex px-3 py-2">
+														<div>
+																<div class="icon icon-shape bg-primary rounded-circle text-white"><i class="inner-circle"></i></div>
+														</div>
+														<div class=pl-4>
+																<h5 class="title text-dark">Perfect for modern startups</h5>
+																<p class=mb-0>With an intuitive markup, powerful and lightning fast build tools, you can turn your ideas into incredible products.</p>
+														</div>
+												</div>
+										</div>
+								</div>
+								<div class="card shadow">
+									<div class=card-body>
+											<div class="d-flex px-3 py-2">
+													<div>
+															<div class="icon icon-shape bg-primary rounded-circle text-white"><i class="inner-circle"></i></div>
+													</div>
+													<div class=pl-4>
+															<h5 class="title text-dark">Perfect for modern startups</h5>
+															<p class=mb-0>With an intuitive markup, powerful and lightning fast build tools, you can turn your ideas into incredible products.</p>
+													</div>
+											</div>
+									</div>
+							</div>
+						</div>
+						<div class="col-lg-6 offset-lg-1 offset-xl-0">
+							<div class="card shadow">
+									<div class=card-body>
+											<div class="d-flex px-3 py-2">
+													<div>
+															<div class="icon icon-shape bg-primary rounded-circle text-white"><i class="inner-circle"></i></div>
+													</div>
+													<div class=pl-4>
+															<h5 class="title text-dark">Perfect for modern startups</h5>
+															<p class=mb-0>With an intuitive markup, powerful and lightning fast build tools, you can turn your ideas into incredible products.</p>
+													</div>
+											</div>
+									</div>
+							</div>
+							<div class="card shadow">
+								<div class=card-body>
+										<div class="d-flex px-3 py-2">
+												<div>
+														<div class="icon icon-shape bg-primary rounded-circle text-white"><i class="inner-circle"></i></div>
+												</div>
+												<div class=pl-4>
+														<h5 class="title text-dark">Perfect for modern startups</h5>
+														<p class=mb-0>With an intuitive markup, powerful and lightning fast build tools, you can turn your ideas into incredible products.</p>
+												</div>
+										</div>
+								</div>
+						</div>
+					</div>
+				</div>
+		</div>
+</section>
+<section class="slice py-5 py-lg-7 pt-3">
+	<div class=container>
+		
+			<div class="row row-grid justify-content-between align-items-center">
+					<div class="col-12 col-md-7 col-lg-5">
+							<h1 class="h2 text-center text-md-left mb-4"><strong>What are we serching for</strong></h1>
+							<p class="lead text-center text-md-left text-muted">Quick has all the right tools in order to make your website building process a breeze and automatize your time-consuming tasks in your development workflow with Gulp toolkit and BrowserSync live browser reload.</p>
+						
+					</div>
+					<div class="col-12 col-md-5 col-lg-6">
+						<img alt="Image placeholder" src="../assets/img/custom/Interns page graphic.svg" class="img-fluid">
+				</div>
+			</div>
+	</div>
+</section>
+		<section class="slice slice-lg" id=sct-form-contact>
+			<div class="container position-relative zindex-100">
+					<div class="row justify-content-center mb-5">
+							<div class="col-lg-6 text-center">
+									<h3><strong>Apply Now</strong></h3>	
+									<p>We'd get back to you to know your interests and notify you when the next event would happen</p>
+							</div>
+					</div>
+					<div class="row justify-content-center">
+							<div class=col-lg-6>
+									<form id=form-contact>
+											<div class=form-group>
+													<input class="form-control" type=text placeholder="Your name" required>
+											</div>
+											<div class=form-group>
+												<input class="form-control" type=email placeholder="Your email" required>
+											</div>
+											<div class=form-group>
+												<input class="form-control" type=text placeholder="Your Phone" required>
+											</div>
+											<div class=form-group>
+													<select name="" id="" class="form-control"></select>
+												</div>
+											<div class=text-center>
+													<button type=reset class="btn-reset d-none"></button>
+													<button type=submit class="btn btn-block btn-lg btn-primary mt-4">Add me to the list</button>
+											</div>
+									</form>
+							</div>
+					</div>
+			</div>
+	</section>
+    
+	<footer id=footer-main>
+			<div class="footer footer-light">
+					<div class=container-fluid>
+							<div class="row pt-md">
+									<div class="col-lg-2 col-6 col-sm-4 offset-lg-1 mb-5 mb-lg-0">
+											<h5 class="heading mb-3">Social</h5>
+											<ul class="list-unstyled ul-icons">
+													<li><a href=#><i class="fab fa-facebook"></i></a></li>
+													<li><a href=#><i class="fab fa-instagram"></i></a></li>
+													<li><a href=#><i class="fab fa-twitter"></i></a></li>
+													<li><a href=#><i class="fab fa-linkedin-in"></i></a></li>
+											</ul>
+									</div>
+									<div class="col-lg-2 col-6 col-sm-4 offset-lg-1 mb-5 mb-lg-0">
+											<h5 class="heading mb-3">Get In Touch</h5>
+											<ul class=list-unstyled>
+													<li><a href=# class="text-underline">info@codekago.com</a></li>
+													<li><a href=#>+2348109960738</a></li>
+													<li><a href=#></a></li>
+													<li><a href=# class="text-underline">86 Atiku Abubakar Road</a></li>
+											</ul>
+									</div>
+									<div class="col-lg-2 col-6 col-sm-4 mb-5 mb-lg-0">
+											<h5 class="heading mb-3">Codekago</h5>
+											<ul class="list-unstyled text-small">
+													<li><a href=#>About</a></li>
+													<li><a href=#>Solutions</a></li>
+													<li><a href=#>Blog</a></li>
+													<li><a href=#>Projects</a></li>
+													<li><a href=#>Team</a></li>
+													<li><a href=#>Careers</a></li>
+											</ul>
+									</div>
+									<div class="col-lg-2 col-sm-4 mb-5 mb-lg-0">
+											<h5 class="heading mb-3">Build</h5>
+											<ul class=list-unstyled>
+													<li><a href=#>Start a Project</a></li>
+													<li><a href=#>Trainings</a></li>
+													<li><a href=#>Contact</a></li>
+													<li><a href=#>Login/Register</a></li>
+											</ul>
+									</div>
+							</div>
+							<div class="container">
+								<div class="row align-items-center justify-content-md-between py-4 mt-4 border-top mx-0 delimiter-top">
+									<div class="col-md-6 mb-3 mb-md-0">
+											<div class="copyright text-sm font-weight-bold text-center text-md-left">&copy; 2019 <a href="../index.html" class=font-weight-bold target=_blank>Codekago Interactive</a>. All rights reserved.</div>
+									</div>
+									<div class=col-md-6>
+											<ul class="nav align-items-center justify-content-center justify-content-md-end">
+													<li class=nav-item><a class=nav-link href=#>Support</a></li>
+													<li class=nav-item><a class=nav-link href=#>Terms</a></li>
+													<li class=nav-item><a class="nav-link pr-0" href=#>Privacy</a></li>
+											</ul>
+									</div>
+							</div>
+							</div>
+					</div>
+			</div>
+	</footer>
+    
+    <script src=../../assets/libs/jquery/dist/jquery.min.js></script>
+    <script src=../../assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js></script>
+    <script src=../../assets/libs/in-view/dist/in-view.min.js></script>
+    <script src=../../assets/libs/sticky-kit/dist/sticky-kit.min.js></script>
+    <script src=../../assets/libs/svg-injector/dist/svg-injector.min.js></script>
+    <script src=../../assets/libs/feather-icons/dist/feather.min.js></script>
+    <script src=../../assets/libs/imagesloaded/imagesloaded.pkgd.min.js></script>
+    <script src=../../assets/libs/jquery.scrollbar/jquery.scrollbar.min.js></script>
+    <script src=../../assets/libs/jquery-scroll-lock/dist/jquery-scrollLock.min.js></script>
+    <script src=../../assets/js/quick-website.js></script>
+    <script>
+        feather.replace({
+            width: "1em",
+            height: "1em"
+        })
+    </script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-104437451-1"></script>
+    <script>
+        function gtag() {
+            dataLayer.push(arguments)
+        }
+        window.dataLayer = window.dataLayer || [], gtag("js", new Date), gtag("config", "UA-104437451-1")
+    </script>
+</body>
+<!-- Mirrored from preview.webpixels.io/quick-website-ui-kit-v1.0.0/pages/blog/blog-grid.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 26 Aug 2019 10:19:35 GMT -->
+
+</html>
