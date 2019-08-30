@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="37.62" height="43.561" viewBox="0 0 37.62 43.561">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffbdff"/>
+      <stop offset="0.1" stop-color="#f5bfff"/>
+      <stop offset="0.26" stop-color="#dbc4ff"/>
+      <stop offset="0.47" stop-color="#b0ccff"/>
+      <stop offset="0.72" stop-color="#75d8ff"/>
+      <stop offset="0.909" stop-color="#2ae6ff"/>
+      <stop offset="1" stop-color="#29e6ff"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_257" data-name="Group 257" transform="translate(-1509.19 -1829.5)">
+    <rect id="Rectangle_331" data-name="Rectangle 331" width="25" height="31" transform="translate(1519 1840)" fill="url(#linear-gradient)"/>
+    <path id="Icon_material-content-copy" data-name="Icon material-content-copy" d="M30.72,1.5H6.96A3.972,3.972,0,0,0,3,5.46V33.18H6.96V5.46H30.72Zm5.94,7.92H14.88a3.972,3.972,0,0,0-3.96,3.96V41.1a3.972,3.972,0,0,0,3.96,3.96H36.66a3.972,3.972,0,0,0,3.96-3.96V13.38A3.972,3.972,0,0,0,36.66,9.42Zm0,31.68H14.88V13.38H36.66Z" transform="translate(1506.19 1828)" fill="#0fb7ff"/>
+  </g>
+</svg>
