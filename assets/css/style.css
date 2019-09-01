@@ -94,6 +94,11 @@ footer{
 	background-color:#ffffff;
 	border-radius:50%;
 }
+
+.badge-fill-primary{
+	color:#ffffff;
+	background-color:#0fb7fe;
+}
 /* Custom CSS */
 article,
 aside,
