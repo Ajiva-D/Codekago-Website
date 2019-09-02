@@ -99,6 +99,14 @@ footer{
 	color:#ffffff;
 	background-color:#0fb7fe;
 }
+.purple-circle{
+	display:inline-block;
+	width:20px;
+	height:20px;
+	border-radius:50%;
+	background-color:#c7a2cb;
+	vertical-align:middle;
+}
 /* Custom CSS */
 article,
 aside,
@@ -4997,8 +5005,7 @@ input[type=submit].btn-block {
 
 .card-img-top {
     width: 100%;
-    border-top-left-radius: calc(1rem - 1px);
-    border-top-right-radius: calc(1rem - 1px)
+    border-radius:16px!important;
 }
 
 .card-img-bottom {
